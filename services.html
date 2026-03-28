@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services - Fight Club Fitness</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="logo">
+        <img src="images/logo.jpg" alt="Fight Club Fitness Logo">
+        <span>Fight Club Fitness</span>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="signup.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="sub-hero" id="services-hero">
+        <h1>OUR SERVICES</h1>
+</section>
+
+<!-- SERVICES -->
+<section class="services-page">
+
+    <!-- SERVICE 1 -->
+    <div class="service-row">
+        <img src="images/pt.jpg" alt="Personal Training">
+
+        <div class="service-text">
+            <h2>Personal Training</h2>
+            <p>
+                Our personal training programs are designed to help you achieve your
+                fitness goals with one-on-one guidance from certified trainers.
+                Whether your goal is weight loss, muscle gain, or improved fitness,
+                we provide customized plans tailored to your needs.
+            </p>
+
+            <a href="signup.html" class="join-btn">Book Now</a>
+        </div>
+    </div>
+
+    <!-- SERVICE 2 -->
+<div class="service-row">
+    <img src="images/fkb.jpg" alt="Kickboxing Classes">
+
+        <div class="service-text">
+            <h2>Fit Kickboxing</h2>
+            <p>
+                High-energy kickboxing classes that combine cardio, strength, and
+                technique. Perfect for improving endurance while learning
+                self-defense skills in a fun and engaging environment.
+            </p>
+
+            <a href="signup.html" class="join-btn">Book Now</a>
+        </div>
+    </div>
+
+    <!-- SERVICE 3 -->
+    <div class="service-row">
+        <img src="images/sk.jpg" alt="Karate Classes">
+
+        <div class="service-text">
+            <h2>Karate Classes</h2>
+            <p>
+                Traditional Shotokan Karate classes for all ages. Build discipline,
+                focus, and self-defense skills under the guidance of experienced
+                instructors.
+            </p>
+
+            <a href="signup.html" class="join-btn">Book Now</a>
+        </div>
+    </div>
+
+    <!-- SERVICE 4 -->
+<div class="service-row">
+    <img src="images/oc.jpg" alt="Online Coaching">
+
+        <div class="service-text">
+            <h2>Online Coaching</h2>
+            <p>
+                Train anytime, anywhere with our online coaching programs.
+                Get personalized workout plans, progress tracking, and
+                expert support from our trainers remotely.
+            </p>
+
+            <a href="signup.html" class="join-btn">Join Now</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Fight Club Fitness Studio</p>
+</footer>
+
+<script>
+
+const hero = document.getElementById("services-hero");
+
+const images = [
+    "images/hero1.jpg",
+    "images/hero2.jpg",
+    "images/hero3.jpg",
+    "images/hero4.jpg"
+];
+
+function changeHeroImage(){
+
+    const randomIndex = Math.floor(Math.random() * images.length);
+
+    hero.style.backgroundImage =
+    "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(" + images[randomIndex] + ")";
+}
+
+changeHeroImage();
+
+
+setInterval(changeHeroImage, 3000);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,559 @@
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.logo img{
+    height:50px;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+/* HEADER */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:black;
+    color:white;
+    padding:15px 40px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+/* HERO SECTION */
+
+.hero{
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#ffffff;
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    transition: background-image 1s ease-in-out;
+}
+
+.hero button{
+    padding:12px 25px;
+    border:none;
+    background:rgb(0, 0, 0);
+    color:hsl(0, 0%, 100%);
+    font-size:16px;
+}
+
+.join-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:black;
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    border-radius:5px;
+}
+
+.join-btn:hover{
+    background:#333;
+}
+
+/* SERVICES */
+
+.services{
+    padding:60px 40px;
+    text-align:center;
+}
+
+.services-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.service-card{
+    width:240px;
+    border-radius:10px;
+    overflow:hidden;
+    background:white;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+.service-card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+}
+
+.service-card h3{
+    margin:10px 0 5px;
+}
+
+.service-card p{
+    padding:0 10px 15px;
+    font-size:14px;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+    transition:0.3s;
+}
+
+
+/* SCHEDULE */
+
+.schedule{
+    background:#363636;
+    color:rgb(255, 255, 255);
+    padding:40px;
+    text-align:center;
+}
+
+.schedule ul{
+    list-style-position: inside;
+    padding:0;
+}
+
+.schedule li{
+    margin:10px 0;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+    transition:0.3s;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* =========================
+   ABOUT PAGE
+========================= */
+
+.about-page{
+    background:rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+}
+
+.about-page p{
+    color:#ddd;
+}
+
+.sub-hero{
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+
+    transition: background-image 1s ease-in-out;
+}
+.about-section{
+    text-align:center;
+    max-width:800px;
+    margin:60px auto;
+    font-size:18px;
+    line-height:1.6;
+    background:#363636;
+    color:rgb(0, 0, 0);
+    padding:40px 20px;
+    border-radius:10px;
+}
+
+.light-bg{
+    background:#363636;
+}
+
+/* TEAM SECTION */
+
+.team-section{
+    text-align:center;
+}
+
+.team-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.about-page .team-card{
+    background:#ffffff;
+    color:rgb(0, 0, 0);
+}
+
+.about-page .team-card h3{
+    color:#000000;
+}
+
+.about-page .team-card p{
+    color:#000000;
+}
+
+.team-card{
+    width:240px;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 6px 15px rgba(0,0,0,0.2);
+    text-align:center;
+    transition:0.3s;
+}
+
+.team-card:hover{
+    transform:translateY(-10px);
+}
+
+.team-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.team-card h3{
+    margin:15px 0 5px;
+}
+
+.team-card p{
+    padding:0 15px 20px;
+    font-size:14px;
+}
+
+.team-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    object-position: top;
+}
+
+.team-card h3{
+    margin:10px 0 5px;
+}
+
+.team-card p{
+    padding:0 10px 15px;
+    font-size:14px;
+}
+
+.cta-section{
+    background:#363636;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding:60px 20px;
+}
+
+.cta-section h2{
+    margin-bottom:20px;
+}
+
+/* =========================
+   SERVICES PAGE (ALIGNED)
+========================= */
+
+.services-page{
+    padding:60px 20px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.sub-hero{
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+
+    transition: background-image 1s ease-in-out;
+}
+
+/* EACH SERVICE ROW */
+
+.service-row{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    margin-bottom:40px;
+    flex-wrap:wrap;
+
+    background:#363636;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(107, 107, 107, 0.3);
+
+    transition:0.3s;
+}
+
+/* IMAGE */
+
+.service-row img{
+    width:400px;
+    max-width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+
+    transition:0.3s;
+}
+
+/* TEXT */
+
+.service-text{
+    max-width:500px;
+}
+
+.service-text h2{
+    margin-bottom:10px;
+}
+
+.service-text p{
+    margin-bottom:15px;
+    font-size:14px;
+    color:#ffffff;
+}
+
+/* HOVER EFFECTS */
+
+.service-row:hover{
+    transform:translateY(-10px);
+}
+
+.service-row img:hover{
+    transform:scale(1.05);
+}
+
+/* =========================
+   SIGNUP FORM
+========================= */
+
+
+.signup-page::before{
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+    z-index:-1;
+}
+
+.form-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:60px 20px;
+}
+
+form{
+    background:rgba(255, 255, 255, 0.85);
+    padding:30px;
+    border-radius:12px;
+    width:320px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+
+    backdrop-filter: blur(8px);
+    box-shadow:0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.form-logo{
+    width:80px;
+    margin:0 auto 10px;
+    display:block;
+}
+
+form input,
+form select{
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    background:#222;
+    color:white;
+}
+
+form input::placeholder{
+    color:#aaa;
+}
+
+form button{
+    background:red;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+form button:hover{
+    background:#cc0000;
+}
+
+form h2{
+    text-align:center;
+}
+
+form input,
+form select{
+    padding:10px;
+    border:none;
+    border-radius:5px;
+}
+
+form button{
+    margin-top:10px;
+}
+
+
+
+#errorMsg{
+    text-align:center;
+    font-size:14px;
+}
+
+.services-select{
+    text-align:left;
+    font-size:14px;
+}
+
+.services-select label{
+    display:block;
+    margin:5px 0;
+}
+
+/* =========================
+   CONTACT PAGE
+========================= */
+
+.contact-section{
+    padding:60px 20px;
+}
+
+.contact-container{
+    display:flex;
+    gap:40px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+/* INFO BOX */
+
+.contact-info,
+#contactForm{
+    background:rgba(0,0,0,0.85);
+    color:white;
+    padding:30px;
+    border-radius:12px;
+    width:320px;
+
+    backdrop-filter: blur(8px);
+    box-shadow:0 0 20px rgba(0,0,0,0.6);
+
+    transition:0.3s;
+}
+
+/* FORM */
+
+#contactForm{
+    background:#111;
+    padding:30px;
+    border-radius:10px;
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+#contactForm input,
+#contactForm textarea{
+    padding:10px;
+    border:none;
+    border-radius:5px;
+}
+
+#contactForm textarea{
+    height:100px;
+    resize:none;
+}
+
+#contactMsg{
+    text-align:center;
+}
+
+.contact-info:hover,
+#contactForm:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+
+
+/* DARK OVERLAY */
+.contact-page::before{
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.75);
+    z-index:-1;
+}
+
+.signup-page,
+.contact-page{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media (max-width: 768px){
+    .signup-page,
+    .contact-page{
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 768px){
+    .signup-page,
+    .contact-page{
+        background-attachment: scroll;
+    }
+}
+
+.signup-page,
+.contact-page{
+    background-position: center top;
+}
