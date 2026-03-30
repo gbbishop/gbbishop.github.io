@@ -501,31 +501,26 @@ form h2{
 
 }
 
+.contact-page,
+.contact-page p,
+.contact-page h1,
+.contact-page h2,
+.contact-page label{
+    color:white;
+}
 
-   
+.contact-info{
+    background:rgba(0,0,0,0.85);
+    color:white;
+}
 
-@media (max-width:768px){
+#contactForm{
+    background:rgba(0,0,0,0.85);
+    color:white;
+}
 
-    .contact-container{
-        flex-direction:column;
-        align-items:center;
-        gap:20px;
-    }
-
-    .contact-info,
-    #contactForm,
-    form{
-        width:90%;
-        max-width:400px;
-        background:rgba(0,0,0,0.9);
-        color:white;
-    }
-
-    .contact-info p,
-    #contactForm h2,
-    #contactForm input,
-    #contactForm textarea{
-        color:white;
-    }
-
+#contactForm input,
+#contactForm textarea{
+    background:#222;
+    color:white;
 }
