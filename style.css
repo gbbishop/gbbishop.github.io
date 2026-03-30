@@ -500,3 +500,28 @@ form h2{
     }
 
 }
+
+
+@media (max-width:768px){
+
+    form{
+        width:90%;
+        max-width:350px;
+    }
+
+    #contactForm{
+        width:90%;
+        max-width:350px;
+    }
+
+    .contact-info{
+        width:90%;
+        max-width:350px;
+    }
+
+    .contact-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+}
