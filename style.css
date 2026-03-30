@@ -501,6 +501,9 @@ form h2{
 
 }
 
+
+   
+
 @media (max-width:768px){
 
     .contact-container{
@@ -509,10 +512,20 @@ form h2{
         gap:20px;
     }
 
-    .contact-info{
+    .contact-info,
+    #contactForm,
+    form{
         width:90%;
         max-width:400px;
+        background:rgba(0,0,0,0.9);
+        color:white;
     }
 
-    #contactForm{
-        width
+    .contact-info p,
+    #contactForm h2,
+    #contactForm input,
+    #contactForm textarea{
+        color:white;
+    }
+
+}
